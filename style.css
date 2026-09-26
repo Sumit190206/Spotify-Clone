@@ -37,7 +37,69 @@ body {
     z-index: 10;
     /* padding: 11px 24px 7px 15px; */
 }
+<<<<<<< HEAD
 a{
+=======
+.nav-bar i {
+    color: white;
+    font-size: 25px;
+    transition-delay: 0.5s ;
+    margin-left: 20px;
+}
+
+/* Home button */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    margin-left: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.home i {
+    margin: 0;
+}
+
+/* Search */
+.search {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    margin: 2px 10px;
+    border: 2px solid black;
+}
+.search i {
+    color: white;
+    max-width: 15px;
+    font-size: 18px;
+}
+
+.search-bar{
+   background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+}
+.search-bar::placeholder {
+    color: #b3b3b3;
+}
+.text-1{
+    display: flex;
+    color: rgba(255, 255, 255, 0.3);
+    margin-left: 200px;
+    
+}
+.text-1 a{
+>>>>>>> b559fb743f2f8d5b6b9afee90487011be6f66ff0
     text-decoration: none;
     color: white;
 }
